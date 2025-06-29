@@ -1,0 +1,74 @@
+.container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.textInput {
+    max-width: 800px;
+    width: 100%;
+    height: 15%;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.keyInput {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: medium;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(237, 31, 145);
+    color: white;
+    font-size: 1.5rem;
+    border: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(200, 0, 110);
+    /* tmavší odtieň */
+    transform: scale(1.05);
+    /* mierne zväčšenie */
+}
+
+.result {
+    margin: 20px;
+    word-break: break-word;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    color: #222;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+
+}
+
+.plaintext {
+    max-width: 800px;
+    text-align: left;
+    word-break: break-word;
+
+}
+
+.deleteButton{
+    font-size: 1rem;
+    margin-top: 0;
+
+    
+}
